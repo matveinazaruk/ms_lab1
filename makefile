@@ -1,3 +1,5 @@
 all:
-	gcc -o hello main.c
+	$(CC) -o hello main.c
 	./hello
+clean:
+	
