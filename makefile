@@ -1,5 +1,5 @@
 all:
-	$(CC) -o hello main.c
-	./hello
+	$(CC) -o hello.o main.c
+	./hello.o
 clean:
 	
